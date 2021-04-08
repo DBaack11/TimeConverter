@@ -18,7 +18,7 @@ public class TimeConverter {
 	private double days;
 	private double months;
 	private double years;
-	private DecimalFormat df = new DecimalFormat("#.###");
+	private DecimalFormat df = new DecimalFormat("#,###.###");
 	
 	
 	public TimeConverter() {

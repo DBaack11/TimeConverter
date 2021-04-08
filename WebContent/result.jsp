@@ -6,20 +6,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Seconds Time Conversion</title>
+<link rel="stylesheet" type="text/css" href="css_stylesheet.css">
 </head>
 <body>
-<p><strong><h1><u>${userConversion.getSeconds()} second(s) is equivalent to: </u></h1></strong><br />
-	<font size="+3">${userConversion.getMinutes()} minutes </font><br />
-	OR <br>
-	<font size="+3">${userConversion.getHours()} hours </font><br />
-	OR <br>
-	<font size="+3">${userConversion.getDays()} days </font><br />
-	OR<br>
-	<font size="+3">${userConversion.getMonths()} months </font><br />
-	OR <br>
-	<font size="+3">${userConversion.getYears()} years </font><br />
+<center>
+<p><strong><h1><u>${userConversion.getSeconds()} second(s) is equivalent to: </u></h1></strong>
+	<h3><font size="+3">${userConversion.getMinutes()} minutes </font></h3>
+	<h2>OR</h2>
+	<h3><font size="+3">${userConversion.getHours()} hours </font></h3>
+	<h2>OR </h2>
+	<h3><font size="+3">${userConversion.getDays()} days </font></h3>
+	<h2>OR</h2>
+	<h3><font size="+3">${userConversion.getMonths()} months </font></h3>
+	<h2>OR</h2>
+	<h3><font size="+3">${userConversion.getYears()} years </font></h3>
 </p>
-<a href="index.jsp">Select another amount of time.</a>
+<br>
 
+<a href="index.jsp" class="click button">NEW CALCULATION</a>
+</center>
 </body>
 </html>
